@@ -58,7 +58,9 @@ function relogio(){
             mensagem.innerHTML = 'O seu Timer foi zerado'
             
             setInterval(function(){
-                mensagem.
+                mensagem.innerHTML = ''
+                mensagem.style.padding = '0px 0px'
+                mensagem.style.border = '0px solid black'
             }, 4000)
         }
     })
