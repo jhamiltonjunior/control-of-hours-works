@@ -54,7 +54,12 @@ function relogio(){
             relogio.innerHTML = '00:00:00'
             segundos = 0
             relogio.classList.remove('pausado')
+            
             mensagem.innerHTML = 'O seu Timer foi zerado'
+            
+            setInterval(function(){
+                mensagem.
+            }, 4000)
         }
     })
 
