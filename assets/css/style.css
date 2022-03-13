@@ -25,6 +25,10 @@ html,body{
     font-size: 17px;
 }
 
+h1, h2 {
+    text-align: center;
+}
+
 form{
 	padding:30px 0 0;
 }
@@ -48,18 +52,42 @@ form button{
     padding: 20px 0;
 }
 
-.relogio{
-    font-size:3em;
+.center {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+    /* align-items: center; */
 }
 
-.pausado{
+.get-timer-name {
+    display: none;
+}
+
+.relogio {
+    font-size:3em;
+    width: 100%;
+    text-align: center;
+}
+
+.pausado {
     color:red;
 }
 
-.mensagem{
+.mensagem {
     width:100%;
     font-size:18px;
     margin-top:10px;
     border-radius:10px;
     background-color:rgb(182, 183, 189);
+}
+
+.old-timer {
+    width:100%;
+    font-size:18px;
+    margin-top:10px;
+    border-radius:10px;
+    background-color:rgb(182, 183, 189);
+
+    display: none;
 }
